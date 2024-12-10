@@ -1,0 +1,14 @@
+path: '/content/gdrive/MyDrive/Nannofossils_Dataset(MASTER)/preprocessed_image/MeanSTD_purposed(main)/data' # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val  # val images (relative to 'path')
+test: images/test
+
+nc: 4
+names: ['Coccolith-PPL', 'Coccolith-XPL', 'Discoaster-PPL', 'Discoaster-XPL']
+
+roboflow:
+  workspace: nannofossils-datasetcoccolith-and-discoaster
+  project: new-dataset-uwb8k
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nannofossils-datasetcoccolith-and-discoaster/new-dataset-uwb8k/dataset/2
